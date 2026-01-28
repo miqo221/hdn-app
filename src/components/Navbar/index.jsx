@@ -30,7 +30,6 @@ const Navbar = () => {
           <div className="flex gap-x-[32px] font-normal">
             {navbarData.map((item) => {
               const isActive = pathname === item.path;
-
               return (
                 <Link
                   key={item.path}
