@@ -4,7 +4,7 @@ import Heading from "../Heading";
 
 export default function FinalCTA() {
   return (
-    <section className="bg-[#000] py-[120px]">
+    <section className="bg-[#000] py-[120px] px-[10px] lg:px-0">
       <Container>
         <div className="flex flex-col gap-y-[40px]">
           <Heading

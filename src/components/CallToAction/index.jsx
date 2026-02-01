@@ -31,13 +31,13 @@ const CallToAction = ({ bgMode }) => {
               bgMode !== "light"
                 ? "border border-gray-700 bg-[#000]"
                 : "bg-[#1a1a1a]"
-            } rounded-md mx-[5] px-16 py-3.5 font-bold text-sm leading-relaxed text-center text-white hover:bg-[#333333] hover:scale-105 transition transform duration-300 ease-in-out`}
+            } rounded-md mx-[5] px-16 py-3.5 font-bold text-sm leading-relaxed text-center text-white hover:bg-[#333333] hover:scale-105 transition transform duration-300 ease-in-out w-[180px] my-[10px] lg:my-0`}
             buttonText={"CALL"}
             handleClick={identifyText}
           />{" "}
           or{" "}
           <Button
-            styles="mx-[5] border border-gray-200 rounded-md px-16 py-3.5 bg-white font-bold text-sm leading-relaxed text-[#1a1a1a] hover:bg-gray-100 hover:scale-105 hover:border-gray-300 transition transform duration-300 ease-in-out"
+            styles="mx-[5] border border-gray-200 rounded-md px-16 py-3.5 bg-white font-bold text-sm leading-relaxed text-[#1a1a1a] hover:bg-gray-100 hover:scale-105 hover:border-gray-300 transition transform duration-300 ease-in-out w-[180px] my-[10px] lg:my-0"
             buttonText={"EMAIL"}
             handleClick={identifyText}
           />{" "}
@@ -45,7 +45,7 @@ const CallToAction = ({ bgMode }) => {
         </h3>{" "}
         {showModal && (
           <div
-            className="fixed inset-0 999 flex items-center justify-center bg-black/50"
+            className="fixed inset-0 z-999 flex items-center justify-center bg-black/50 px-[10px] lg:px-[0px]"
             onClick={() => setShowModal(false)}
           >
             <div

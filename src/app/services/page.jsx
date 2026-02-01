@@ -1,16 +1,15 @@
+"use client";
+
 import UpdateLine from "@/components/UpdateLine";
 import Container from "@/components/Container";
 import icon from "../../assets/updateGifs/professional.gif";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
-import CallToAction from "@/components/CallToAction";
 import Experience from "@/components/Experience";
-import stepsData from "@/constants/stepsData";
-import Heading from "@/components/Heading";
-import IconCard from "@/components/IconCard";
 import Testimonials from "@/components/Testimonials";
-import clientsData from "@/constants/clientsData";
+import Steps from "@/components/Steps";
 import Carousel from "@/components/Carousel";
+import clientsData from "@/constants/clientsData";
 
 export default function Service() {
   return (
@@ -18,7 +17,7 @@ export default function Service() {
       <Container>
         <UpdateLine
           icon={icon}
-          text={"Professional accounting with predictable turnaround times."}
+          text={"Professional and predictable accounting."}
           bgColor="#ffb8b8"
           textColor="#e83930bb"
           altText={"Abc icon"}
@@ -38,40 +37,13 @@ export default function Service() {
         </Container>
       </section>
       <Container>
-        <section className="py-[80px] flex flex-col gap-[60px]">
-          <Heading
-            firstLine={"Connect us now"}
-            secondLine={"with just 3 steps."}
-            subTitle={"Three steps to complete financial clarity."}
-            alignment={"center"}
-          />
-          <div className="flex gap-[48px] mt-[80px] justify-between">
-            {stepsData.map((elm) => {
-              return (
-                <IconCard
-                  key={elm.title}
-                  generalStyles={
-                    "bg-white p-[33px] rounded-xl flex flex-col gap-[20px] max-w-[350px] border border-gray-100  cursor-default hover:scale-105 hover:shadow-xl transition duration-600 "
-                  }
-                  source={elm.image}
-                  altText={elm.alt}
-                  mainText={elm.title}
-                  secondaryText={elm.description}
-                  mainStyles={elm.titleStyle}
-                  secondaryStyles={elm.descriptionStyle}
-                  imgStyles={elm.imgStyle}
-                />
-              );
-            })}
-          </div>
-          <Carousel clients={clientsData} />
-        </section>
+        <Steps />
+        <Carousel clients={clientsData} />
       </Container>
       <Testimonials />
       <Container>
         <Experience />
       </Container>
-     
     </div>
   );
 }

@@ -15,9 +15,11 @@ export default [
     alt: "Person's profile pic",
     title: "Khachik Hovhannisyan",
     description: "CEO and Co Founder",
-    imgStyle: "w-[200px] h-[250px]",
-    titleStyle: "font-bold text-[20px] leading-[20%] text-[#1a1a1a]",
-    descriptionStyle: "font-normal text-[13px] leading-[10%] text-[#4b5563]",
+    imgStyle: "lg:w-[200px] lg:h-[250px] w-[120px] h-[150px] object-fill",
+    titleStyle:
+      "font-bold lg:text-[20px] text-[15px] lg:leading-[20%] text-[#1a1a1a]",
+    descriptionStyle:
+      "lg:font-normal font-bold lg:text-[13px] text-[10px] leading-[10%] text-[#4b5563]",
     socialMediaLinks: [
       {
         href: "https://inchvormiban.com",
@@ -41,9 +43,11 @@ export default [
     alt: "Person's profile pic",
     title: "Artur Harutyunyan",
     description: "Co Founder",
-    imgStyle: "w-[200px] h-[250px]",
-    titleStyle: "font-bold text-[20px] leading-[20%] text-[#1a1a1a]",
-    descriptionStyle: "font-normal text-[13px] leading-[10%] text-[#4b5563]",
+    imgStyle: "lg:w-[200px] lg:h-[250px] w-[120px] h-[150px] object-fill",
+    titleStyle:
+      "font-bold lg:text-[20px] text-[15px] lg:leading-[20%] text-[#1a1a1a]",
+    descriptionStyle:
+      "lg:font-normal font-bold lg:text-[13px] text-[10px] leading-[10%] text-[#4b5563]",
     socialMediaLinks: [
       {
         href: "https://inchvormiban.com",
@@ -62,9 +66,11 @@ export default [
     alt: "Person's profile pic",
     title: "Natalie Portman",
     description: "Junior Accountant",
-    imgStyle: "w-[200px] h-[250px]",
-    titleStyle: "font-bold text-[20px] leading-[20%] text-[#1a1a1a]",
-    descriptionStyle: "font-normal text-[13px] leading-[10%] text-[#4b5563]",
+    imgStyle: "lg:w-[200px] lg:h-[250px] w-[120px] h-[150px] object-fill",
+    titleStyle:
+      "font-bold lg:text-[20px] text-[15px] lg:leading-[20%] text-[#1a1a1a]",
+    descriptionStyle:
+      "lg:font-normal font-bold lg:text-[13px] text-[10px] leading-[10%] text-[#4b5563]",
     socialMediaLinks: [
       {
         href: "https://inchvormiban.com",
@@ -88,18 +94,22 @@ export default [
     alt: "Person's profile pic",
     title: "Mike Tyson",
     description: "Sales Manager",
-    imgStyle: "w-[200px] h-[250px]",
-    titleStyle: "font-bold text-[20px] leading-[20%] text-[#1a1a1a]",
-    descriptionStyle: "font-normal text-[13px] leading-[10%] text-[#4b5563]",
+    imgStyle: "lg:w-[200px] lg:h-[250px] w-[120px] h-[150px] object-fill",
+    titleStyle:
+      "font-bold lg:text-[20px] text-[15px] lg:leading-[20%] text-[#1a1a1a]",
+    descriptionStyle:
+      "lg:font-normal font-bold lg:text-[13px] text-[10px] leading-[10%] text-[#4b5563]",
   },
   {
     image: member5,
     alt: "Person's profile pic",
     title: "Alla Levonyan",
     description: "Administrative Assistant",
-    imgStyle: "w-[200px] h-[250px] object-fill",
-    titleStyle: "font-bold text-[20px] leading-[20%] text-[#1a1a1a]",
-    descriptionStyle: "font-normal text-[13px] leading-[10%] text-[#4b5563]",
+    imgStyle: "lg:w-[200px] lg:h-[250px] w-[120px] h-[150px] object-fill",
+    titleStyle:
+      "font-bold lg:text-[20px] text-[15px] lg:leading-[20%] text-[#1a1a1a]",
+    descriptionStyle:
+      "lg:font-normal font-bold lg:text-[13px] text-[10px] leading-[10%] text-[#4b5563]",
     socialMediaLinks: [
       {
         href: "https://inchvorurishban.com",

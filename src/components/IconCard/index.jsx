@@ -30,14 +30,14 @@ export default function IconCard({
         </div>
       )}
       {socialLinksArray && (
-        <div className="flex gap-x-[16px]">
+        <div className="flex lg:gap-x-[16px] gap-x-[8px]">
           {socialLinksArray.map((element, index) => {
             return (
               <Link href={element.href} key={index}>
                 <Image
                   src={element.icon}
                   alt={element.alt}
-                  className="w-[32px] h-[32px] hover:scale-115 hover:shadow-xl transition duration-200"
+                  className="lg:w-[32px] lg:h-[32px] w-[20px] hover:scale-115 hover:shadow-xl transition duration-200"
                 ></Image>
               </Link>
             );

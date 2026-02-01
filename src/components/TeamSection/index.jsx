@@ -7,19 +7,19 @@ export default function TeamSection() {
   return (
     <div className="py-[120px] bg-[#fff]">
       <Container>
-        <div className="flex flex-row-reverse justify-between items-center ">
+        <div className="flex lg:flex-row-reverse flex-col justify-between items-center ">
           <Heading
             firstLine={"Our team of"}
             secondLine={"dedicated professionals"}
             alignment={"right"}
           />
-          <div className="flex items-start flex-wrap gap-[50px] max-w-[50%]">
+          <div className="flex lg:items-start justify-center flex-wrap lg:gap-[50px] gap-[10px] lg:max-w-[50%]">
             {teamData.map((person, index) => {
               return (
                 <IconCard
                   key={index}
                   generalStyles={
-                    "flex flex-col gap-y-[25px] hover:scale-105 transition duration-600"
+                    "flex flex-col lg:gap-y-[25px] gap-y-[10px] hover:scale-105 transition duration-600 max-w-[120px] lg:max-w-none"
                   }
                   source={person.image}
                   mainText={person.title}

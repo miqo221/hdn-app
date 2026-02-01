@@ -22,7 +22,7 @@ export default function Contacts() {
   };
 
   return (
-    <section className="bg-[#fff] py-[120px]">
+    <section className="bg-[#fff] lg:py-[120px] py-[80px] px-[10px] lg:px-[0px]">
       <Container>
         <Heading
           firstLine={"Get in touch"}
@@ -32,7 +32,7 @@ export default function Contacts() {
           }
           alignment={"left"}
         />
-        <div className="my-[80px] flex items-center justify-between gap-[16px]">
+        <div className="lg:my-[80px] my-[20px] flex flex-col lg:flex-row lg:items-center justify-between gap-[16px]">
           {contactInfo.map((elm, index) => {
             return (
               <div className="flex-1 relative" key={index}>
@@ -51,7 +51,7 @@ export default function Contacts() {
                   source={elm.icon}
                   extraText={"Tip: tap the action for a quick shortcut"}
                   extraTextStyles={
-                    "font-normal text-[12px] leading-[133%] text-[#636b7e] mt-[36px]"
+                    "font-normal text-[12px] leading-[133%] text-[#636b7e] lg:mt-[36px]"
                   }
                 />
                 <div className="absolute flex items-center gap-[8px] top-[24px] right-[24px]">

@@ -15,9 +15,9 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="bg-[#fff] py-[65px]">
+    <div className="bg-[#fff] py-[65px] px-[10px] lg-px-[0]">
       <Container>
-        <div className="flex gap-x-[180px] justify-between">
+        <div className="flex flex-col lg:flex-row lg:gap-x-[180px] gap-y-[60px] justify-between">
           <div className="flex flex-col gap-y-[25px] justify-start">
             <Link className="flex items-center gap-x-[8px]" href={"/"}>
               <div className="rounded-[50px] overflow-hidden">
@@ -63,14 +63,14 @@ export default function Footer() {
               </Link>
             </div>
           </div>
-          <div className="flex gap-x-[150px] justify-between items-center">
+          <div className="flex lg:gap-x-[150px] justify-between items-center">
             <DefaultLinks title={"Product"} linkArray={productLinksArray} />
             <DefaultLinks title={"Company"} linkArray={companyLinksArray} />
             <DefaultLinks title={"Legal"} linkArray={legalLinksArray} />
           </div>
         </div>
         <hr className="block h-px border-0 border-t border-t-gray-300 p-0 my-[33px]" />
-        <div className="flex justify-between">
+        <div className="flex flex-col lg:flex-row gap-y-[30px] justify-between">
           <p className="font-normal text-[11px] leading-[168%] text-[#6b7280]">
             © 2026 HDN Accounting Inc. All rights reserved.
           </p>

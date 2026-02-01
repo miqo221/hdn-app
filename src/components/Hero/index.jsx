@@ -5,7 +5,7 @@ export default function Hero({ pageDescription }) {
         We handle the <span className="text-[#4A90E2]">numbers</span>, so you
         can focus on <span className="text-[#4A90E2]">growth</span>
       </h2>
-      <h3 className="font-normal text-[17px] leading-[1.48] text-center text-[#4b5563] my-[40px]">
+      <h3 className="font-normal text-[17px] leading-[1.48] text-center text-[#4b5563] my-[40px] px-[10px] lg:px-[0px]">
         {pageDescription}
       </h3>
     </div>

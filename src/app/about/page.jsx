@@ -1,3 +1,5 @@
+"use client";
+
 import Container from "@/components/Container";
 import UpdateLine from "@/components/UpdateLine";
 import clock from "../../assets/updateGifs/clock.gif";
@@ -6,8 +8,6 @@ import Carousel from "@/components/Carousel";
 import clientsData from "@/constants/clientsData";
 import Experience from "@/components/Experience";
 import SolvedProblems from "@/components/SolvedProblems";
-import Heading from "@/components/Heading";
-import CallToAction from "@/components/CallToAction";
 import Testimonials from "@/components/Testimonials";
 import Values from "@/components/Values";
 import Hero from "@/components/Hero";
@@ -40,7 +40,6 @@ export default function About() {
         <SolvedProblems />
       </Container>
       <Testimonials />
-    
     </div>
   );
 }

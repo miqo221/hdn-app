@@ -6,20 +6,20 @@ export default function Heading({
 }) {
   return (
     <div
-      className={`flex flex-col gap-y-[60px] ${
+      className={`flex flex-col gap-y-[60px] px-[10px] lg:px-[0px] ${
         alignment === "left"
           ? "items-start text-start"
           : alignment === "right"
-          ? "items-end text-end"
-          : "items-center text-center"
+            ? "items-end lg:text-end"
+            : "items-center text-center"
       }`}
     >
       <div>
-        <h2 className="font-bold text-[40px] leading-[0.6] text-[#1a1a1a]">
+        <h2 className="font-bold text-[40px] leading-[0.9] text-[#1a1a1a]">
           {firstLine}
         </h2>
         <br />
-        <h2 className="font-bold text-[40px] leading-[0.6] text-[#9ca3af]">
+        <h2 className="font-bold text-[40px] leading-[0.9] text-[#9ca3af]">
           {secondLine}
         </h2>
       </div>
