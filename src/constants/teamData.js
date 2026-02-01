@@ -19,7 +19,7 @@ export default [
     titleStyle:
       "font-bold lg:text-[20px] text-[15px] lg:leading-[20%] text-[#1a1a1a]",
     descriptionStyle:
-      "lg:font-normal font-bold lg:text-[13px] text-[10px] leading-[10%] text-[#4b5563]",
+      "lg:font-normal font-bold lg:text-[13px] text-[10px] lg:leading-[10%] text-[#4b5563]",
     socialMediaLinks: [
       {
         href: "https://inchvormiban.com",
@@ -47,7 +47,7 @@ export default [
     titleStyle:
       "font-bold lg:text-[20px] text-[15px] lg:leading-[20%] text-[#1a1a1a]",
     descriptionStyle:
-      "lg:font-normal font-bold lg:text-[13px] text-[10px] leading-[10%] text-[#4b5563]",
+      "lg:font-normal font-bold lg:text-[13px] text-[10px] lg:leading-[10%] text-[#4b5563]",
     socialMediaLinks: [
       {
         href: "https://inchvormiban.com",
@@ -70,7 +70,7 @@ export default [
     titleStyle:
       "font-bold lg:text-[20px] text-[15px] lg:leading-[20%] text-[#1a1a1a]",
     descriptionStyle:
-      "lg:font-normal font-bold lg:text-[13px] text-[10px] leading-[10%] text-[#4b5563]",
+      "lg:font-normal font-bold lg:text-[13px] text-[10px] lg:leading-[10%] text-[#4b5563]",
     socialMediaLinks: [
       {
         href: "https://inchvormiban.com",
@@ -98,7 +98,7 @@ export default [
     titleStyle:
       "font-bold lg:text-[20px] text-[15px] lg:leading-[20%] text-[#1a1a1a]",
     descriptionStyle:
-      "lg:font-normal font-bold lg:text-[13px] text-[10px] leading-[10%] text-[#4b5563]",
+      "lg:font-normal font-bold lg:text-[13px] text-[10px] lg:leading-[10%] text-[#4b5563]",
   },
   {
     image: member5,
@@ -109,7 +109,7 @@ export default [
     titleStyle:
       "font-bold lg:text-[20px] text-[15px] lg:leading-[20%] text-[#1a1a1a]",
     descriptionStyle:
-      "lg:font-normal font-bold lg:text-[13px] text-[10px] leading-[10%] text-[#4b5563]",
+      "lg:font-normal font-bold lg:text-[13px] text-[10px] lg:leading-[10%] text-[#4b5563]",
     socialMediaLinks: [
       {
         href: "https://inchvorurishban.com",
